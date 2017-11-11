@@ -36,10 +36,16 @@ header h1 {
 	display: inline;
 	margin: 0px 10px ;
 }
-#banner nav a:link, #banner nav a:visited {
+/*
+#banner nav a:link, #banner nav a:visited, #banner nav a:active  {
 display: inline-block;
-text-decoration: underline;
+text-decoration: none;
+}*/
+
+.active {
+text-decoration:none !important;
 }
+
 
 .c1 {
   width: 70%;
