@@ -6,7 +6,6 @@
 body {
 	background-color: #02010a;
 	font-family: DancingScript;
-	
 }
 
 header{
@@ -28,7 +27,7 @@ header{
 nav li {
 	float: center;
 	display: inline;
-	margin: 0px 10px ;
+	margin: 5px 5px ;
 }
 
 .active {
@@ -45,9 +44,10 @@ text-decoration:none !important;
 }
 
 .c2 {
-  width: 30%;
-
+	width: 30%;
 }
+
+
 
 .imagen{
 	margin-top: 20px;
@@ -117,7 +117,7 @@ footer {
   width: 25%;
 }
 #c6{
-	padding-left: 30px;
+	padding-left: 15px;
 	padding-right: 15px;
 }
 
@@ -127,7 +127,7 @@ footer {
 }
 #c7{
 	padding-left: 15px;
-	padding-right: 30px;
+	padding-right: 15px;
 }
 
 .c8 {
@@ -192,7 +192,7 @@ footer {
 
 	.c1 {
 		width: 70%;
-		text-align: left;
+		text-align: center;
 	}
 	#c1{
 		padding-left:50px;
@@ -200,9 +200,11 @@ footer {
 
 	.c2 {
 		width: 30%;
+		text-align: center;
 	}
 	#c2{
 		padding-top:20px;
+	
 	}
 	
 	.c5 {
@@ -264,7 +266,7 @@ footer {
 
 }
 
-@media (max-width:900px){
+@media (max-width: 900px) {
 	
 	#contenido {
 		width:100%;
@@ -277,11 +279,17 @@ footer {
 		order: 1;
 		text-align: center;
 	}
+	
 	.c2 {
 		width: 100%;
 		order: 2;
+		text-align:center;
+	}
+	#c2{
 		text-align: center;
 	}
+	
+	
 	.c5 {
 		width: 100%;
 		order: 3;
@@ -343,18 +351,12 @@ footer {
 		order: 6;
 	}
 	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	}
+
+	body {
+	background-color: #02010a;
+	font-family: DancingScript;
+	/*width: 90%;	
+	margin-left: 5%;*/
+	font-size: 3vw;
+}
+}
