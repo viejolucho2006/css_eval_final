@@ -25,15 +25,17 @@ header{
 }
 
 nav li {
-	float: center;
 	display: inline;
-	margin: 5px 5px ;
 }
 
 .active {
-text-decoration:none !important;
+	text-decoration:none !important;
 }
 
+a{
+	color:white;
+	text-align: center;
+}
 
 .c1 {
   width: 70%;
@@ -81,10 +83,12 @@ footer {
 
 .c3 {
   width: 50%;
+  font-size: 200%
  }
  
 .c4 {
   width: 50%;
+  font-size: 200%
 }
 
 .c5 {
@@ -192,7 +196,7 @@ footer {
 
 	.c1 {
 		width: 70%;
-		text-align: center;
+		text-align: left;
 	}
 	#c1{
 		padding-left:50px;
@@ -279,6 +283,10 @@ footer {
 		order: 1;
 		text-align: center;
 	}
+	#c1 h1 {
+		font-size: 300%;
+	}
+	
 	
 	.c2 {
 		width: 100%;
@@ -286,7 +294,13 @@ footer {
 	}
 	#c2{
 		text-align: center;
+		font-size: 200%;
 	}
+	
+	nav li {
+		margin: 10px;
+	}
+
 	
 	
 	.c5 {
@@ -304,19 +318,23 @@ footer {
 	
 	.c6 {
 		width: 100%;
+		font-size: 200%;
 		order: 6;
 	}
 	
 	.c7 {
 		width: 100%;
+		font-size: 200%;
 		order: 7;
 	}
 	.c8 {
 		width: 100%;
+		font-size: 200%;
 		order: 8;
 	}
 	.c9 {
 		width: 100%;
+		font-size: 200%;
 		order: 9;
 	}
 
